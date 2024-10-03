@@ -13,7 +13,6 @@ public class Application {
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
 	}
-	111
 
 	@Bean
 	public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
@@ -25,7 +24,7 @@ public class Application {
 			Arrays.sort(beanNames);
 			for (String beanName : beanNames) {
 				System.out.println(beanName);
-			}
+			}//еу
 
 		};
 	}
