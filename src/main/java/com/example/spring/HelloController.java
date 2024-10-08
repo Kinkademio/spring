@@ -18,7 +18,7 @@ public class HelloController {
 
     @GetMapping("/admin")
     public String admin() {
-        return "Oh! How did you end up here? ";
+        return "Oh! How did you end up here?";
     }
 
 }
