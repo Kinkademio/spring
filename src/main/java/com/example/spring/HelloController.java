@@ -42,7 +42,7 @@ public class HelloController {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-        return "The secret in file: <br>" + secretText;
+        return "<b>The secret in file:</b> <br>" + secretText;
     }
 
 }
