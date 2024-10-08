@@ -55,4 +55,9 @@ public class HelloController {
         return "This is the greatest site that u have ever seen!!!";
     }
 
+    @GetMapping("/sorry")
+    public String sorry() {
+        return "rrrrrr";
+    }
+
 }
