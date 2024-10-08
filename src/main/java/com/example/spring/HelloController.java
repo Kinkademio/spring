@@ -21,4 +21,9 @@ public class HelloController {
         return "Oh! How did you end up here?";
     }
 
+    @GetMapping("/welcome")
+    public String welcome() {
+        return "This is the greatest site that u have ever seen!!!";
+    }
+
 }
