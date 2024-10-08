@@ -8,6 +8,10 @@ import java.io.*;
 @RestController
 public class HelloController {
 
+    @GetMapping("/sorry_not_sorry")
+    public String sorry_not_sorry() {
+        return "ssssss";
+    }
     @GetMapping("/")
     public String index() {
         return "I love to create Sites";
