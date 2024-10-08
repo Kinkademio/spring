@@ -45,4 +45,9 @@ public class HelloController {
         return "<b>The secret in file:</b> <br>" + secretText;
     }
 
+    @GetMapping("/as_we_can")
+    public String as_we_can() {
+        return "This is the greatest site that u have ever seen!!!";
+    }
+
 }
