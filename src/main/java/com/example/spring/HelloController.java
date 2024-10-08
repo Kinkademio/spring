@@ -11,6 +11,10 @@ public class HelloController {
         return "I love to create Sites";
     }
 
+    @GetMapping("/cabinet")
+    public String cabinet() {
+        return "U are in cabinet now!";
+    }
 
 
 }
