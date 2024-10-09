@@ -28,21 +28,4 @@ public class HelloController {
         return "This is the greatest site that u have ever seen!!!";
     }
 
-    @GetMapping("/secret")
-    public String secret() {
-        String secretText = "";
-        String file ="secret1.txt";
-        BufferedReader reader = null;
-        try {
-            reader = new BufferedReader(new FileReader(file));
-            secretText = reader.readLine();
-            reader.close();
-        } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-        return "<b>The secret in file:</b> <br>" + secretText;
-    }
-
 }
