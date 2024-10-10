@@ -1,3 +1,4 @@
+delete
 Add changes to main
 Изменения из мастара на изменения с rebase_task
 # spring
